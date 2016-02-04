@@ -6,8 +6,8 @@ angular.module('cibumApp', ['ionic', 'ui.router', 'cibumControllers', 'cibumServ
 .config(Config)
 
 .constant('AzureMobileServiceClient', {
-    API_URL: 'https://cibum.azure-mobile.net/',
-    API_KEY: 'nchFMjWKfTwpQpqFpQdMupKDeyrsJo31',
+    API_URL: '',
+    API_KEY: '',
 })
 
 .run(Run)
